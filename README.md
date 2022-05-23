@@ -1,0 +1,2 @@
+# DinoGameAutomation
+This is a script and a list of tools to automate simple games like Chrome's Dino Run. This includes functions to capture window of game, list all active windows, detect a character or object in haystack image from its needle image, display needle images by putting a bounding box, dot at the center or text on top left corner of bounding box and finally calculate horizonal and vertical distances between 2 objects.
