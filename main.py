@@ -6,9 +6,6 @@ from utils import capture_window, detect_needle, list_window_names, display, cal
 dino_path = 'dino.png'
 cactus1_path = 'cactus1.png'
 cactus2_path = 'cactus2.png'
-cactus3_path = 'cactus3.png'
-cactus4_path = 'cactus4.png'
-cactus5_path = 'cactus5.png'
 
 # NEEDLE IMAGES AND DIMENSIONS
 dino = cv.imread(dino_path)
@@ -18,19 +15,10 @@ cactus1 = cv.imread(cactus1_path)
 cactus1_h, cactus1_w, _ = cactus1.shape
 cactus2 = cv.imread(cactus2_path)
 cactus2_h, cactus2_w, _ = cactus2.shape
-# cactus3 = cv.imread(cactus3_path)
-# cactus3_h, cactus3_w, _ = cactus3.shape
-# cactus4 = cv.imread(cactus4_path)
-# cactus4_h, cactus4_w, _ = cactus4.shape
-# cactus5 = cv.imread(cactus5_path)
-# cactus5_h, cactus5_w, _ = cactus5.shape
 
 # VISUALIZE NEEDLE IMAGES
 # cv.imshow('CACTUS 1', cactus1)
 # cv.imshow('CACTUS 2', cactus2)
-# cv.imshow('CACTUS 3', cactus3)
-# cv.imshow('CACTUS 4', cactus4)
-# cv.imshow('CACTUS 5', cactus5)
 # cv.waitKey(0)
 # cv.destroyAllWindows()
 
